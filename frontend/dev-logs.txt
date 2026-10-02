@@ -1,11 +1,11 @@
 npm notice run frontend@0.1.0 dev
 npm notice run node --import tsx/esm watch-server.ts & vite --port 3003
-(node:1217713) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:1258716) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:1217714) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:1258717) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 
-  VITE v6.4.2  ready in 582 ms
+  VITE v6.4.2  ready in 962 ms
 
   ➜  Local:   http://localhost:3003/
   ➜  Network: http://72.60.234.246:3003/
@@ -13,6 +13,6 @@ npm notice run node --import tsx/esm watch-server.ts & vite --port 3003
   ➜  Network: http://172.18.0.1:3003/
   ➜  Network: http://172.23.0.1:3003/
   ➜  press h + enter to show help
-(node:1217734) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:1258758) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 ✓ CopilotKit API server running at http://localhost:4003

@@ -1,2 +1,8 @@
 # graft's local graph cache — regenerable, not committed (run `graft build`).
 /graft/
+/openwiki/
+/venv/
+/mcp-app/
+**/__pycache__/
+/frontend/node_modules/
+.env
