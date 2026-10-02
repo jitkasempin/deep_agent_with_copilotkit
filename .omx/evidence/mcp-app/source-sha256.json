@@ -1,0 +1,8 @@
+{
+  "index.ts": "7f3a8de012382adc714a37a104cb456830ea3b4eeda2d3abbffa95835988741b",
+  "views/my-view/view.tsx": "e7601b74c432ac1b0c8e18a93e528c9df012c18a727472410cc793da4e5f601f",
+  "package.json": "9c929d799168e37cd626caa335f74d3dfdbaf9e94fd7e2ed152637e411ec82b9",
+  "package-lock.json": "4b1dbfa8d6163559701953cd8cfbacfeb254bb3018798d0ab95f772fe08b404d",
+  "tsconfig.json": "e71b7196b529ded7028e9f82ba46242a92573302941f342954e764f9eb0dbba9",
+  "README.md": "9ad269772775636ad6e278fb52edd8e757c89b2baaf73a12c8dd3898ff342ae9"
+}

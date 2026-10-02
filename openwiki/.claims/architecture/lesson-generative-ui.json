@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:9e85bfa2225bb03ef30f877ec065fc62a12c1de27d1d815fe450aa92ada78081",
+  "claims": [
+    {
+      "id": "claim_7f51c17e7b5741bb96cff05483b32418",
+      "statement": "Lesson 3 operates as a tri-tier architecture spanning a React Vite frontend on port 3003, a Hono CopilotKit runtime server on port 4003, and a Python FastAPI LangGraph agent backend on port 8003 following a dedicated 3000+N, 4000+N, and 8000+N port scheme.",
+      "evidence": [
+        {
+          "resource": "repo://backend/server.py#L47-L57",
+          "version": "repo-lines-v1:sha256:6a72e4f6cbbcc3676f77b56257e5b0fa26217ef646fa5e5fbd95af712a004293:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhZDM0ODkxNjlhMTJhYTliYmFkNWFlN2E1OTMwMzFmMjg0NTBjZmM0NTJhZGFhYTdlMWFlYTdjOTdmYzMwNjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM1ZDUyN2Q3ZjEwYmZmOTk3YzY5ZTRmMzljYTY2NTZiOGQ3YzU4ZTI0NmJkNTA5MTk4OTg2MGNkMDFlNmE1YjkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhjYzRhN2QxY2M3OTZhYmEzZTQ2NzIzMzI3ZjUxN2U5ZjgxMTk4MmQyNTBmMDcwMjk4NmU0YjU3NjRhZDk1ODkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://frontend/server.ts#L25-L27",
+          "version": "repo-lines-v1:sha256:01378addaa0d0a7a09a564f55fd9fb50cfb4d92c6797888decc577e8155eefab:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTZmMjg3NTNiYTRmNTI4YWZiNjhiOGUyOGE1NmJmNWQxZTBhYzhmMTNlMzYxYmE4M2M1M2JkZjY5N2RjZGRhMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZmNWI0MGIxNTg0NTdkMTc4NjRmMjE3OTA3ODZkZDVhMmVjZGI2NGI2NmE2NTFmNzg4ZDRlMjVjZDMzMDNkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGE2N2M0OWNmMjMyOTRkODE1ZTY3NWMzMDc2ZGI0YzE2ZjQxZjVjYTM5Y2RjMzMzYjkzMmQyZDBmNjFlMGYwOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiJ9"
+        },
+        {
+          "resource": "repo://frontend/vite.config.ts#L17-L20",
+          "version": "repo-lines-v1:sha256:876ea6989ac8a43c0bfa544901b51d74759309e46171687af7b2f70693df7bb9:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTQ3NDRkYTNkYWEwNWMzNDI0YTBmNDFjZGQwZjIzZDNiODc0NDA5OTBlNjg1ZGQ2MjU0MGEyNzU3Njc3ZGIxYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ1Y2QyZmI0ZjNkZjg4NDUxNTI1NWIzOTUyM2YyZjhiNTQ3MmJlZWE5ZjU2NmZmY2EyMDRkYjgwMjU2MTA0MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMjYwNTZjMzNhYzM1ZjU5Y2VlNTQxODE1MTViYjEyZTVmOGZiNTZlMTFiZGRmZWZhZWM3NGI2ZDFkZDI5YWE3YSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZmNWI0MGIxNTg0NTdkMTc4NjRmMjE3OTA3ODZkZDVhMmVjZGI2NGI2NmE2NTFmNzg4ZDRlMjVjZDMzMDNkMiJ9"
+        },
+        {
+          "resource": "repo://helper.py#L57-L64",
+          "version": "repo-lines-v1:sha256:a2a0148d466b79f4f18e188df75b872529ae589f8bcc4dc17af83ffe97d005a1:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzY2MjYwZmE4ZWNmMzAzMTg2N2IxNmZiOTQ3ZDliZmE1YmM1ZjM1YzJjOThiNjUwNDk4NjNkNGY2OGNlZGRhMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTMxN2Q5MTQ3NWY0MjdhZTE5Nzg2ZGZiMmNiOTk5YWM1YWRlOGU4MGQ1YjRhMzVjMzM3ZjNmMzIwNWFjNGI3OSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjA5ODJiYTE3MzI0M2JlNzUxMDBiYTM4OWM4NTQ4OGM2NjExMGIwZWIzMmJlNTgzMzFhNWUzNTgwODM3MmEwNCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_28cafd402c7a4045966dac634a1ef390",
+      "statement": "The CopilotKit runtime server in frontend/server.ts mounts an API endpoint at /api/copilotkit using Hono and CopilotRuntime, and connects to the backend agent via LangGraphHttpAgent targeting LANGGRAPH_DEPLOYMENT_URL with a fallback to http://localhost:8003.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/server.ts#L9-L27",
+          "version": "repo-lines-v1:sha256:0ecc19fb68712e2a3fee2823c071a7641fee3790b75bad8c0e9da89025769a49:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRmMmQzNmUwMTkzZjRiYzhlMjQ5ZTI3MDIyNDViNDk0MWQyMTYxOWI2ZjA5MDE0NDgyNDBhZDNlYTc4ZjczMTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2ZjViNDBiMTU4NDU3ZDE3ODY0ZjIxNzkwNzg2ZGQ1YTJlY2RiNjRiNjZhNjUxZjc4OGQ0ZTI1Y2QzMzAzZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjRmOGJkNTYxOGQzZTZkZWRiYmQzODVhY2VkNjA2ODQyNWM0ZWY2OGMwOTQ4MTJlMzI3ZDUyNmQzYjk4Y2IxOWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoxLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_93fd04477b1240af9fa518825910b5e1",
+      "statement": "The runtime server development process is supervised by frontend/watch-server.ts, which forks server.ts with tsx/esm and monitors it with fs.watchFile at 500ms intervals to kill and restart the process upon changes.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/package.json#L6-L8",
+          "version": "repo-lines-v1:sha256:1dcf02a0de89155f751377127c0dd71da37da52451fd2e6cedabae3dcc25c536:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ4MzNkNTk0OWMwM2E0MGNhOTUyNDkxNjEwYTY2NTk2NDRiM2FhNDY2MzYyZjc5OTAyMGRiZjE5ODE1NDdkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGMxNDYwNDc3ZDZkODJkYzdmYjM1M2IzN2IxMGZkNzI2OWU2ZWUzODJjZTExMTE4OTliYTIxMzI0MTlkYzFjNyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWI0ZjZhNDYyZDEyZTExMzc1MGI2NTQzYzQzYzQzMDQ4NjIyOTExNWIyNWE1ZTdhM2E1YzFkNTcyYTU1ZjkxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDc5YTU4YzEzMGU0NjdlZjM5Y2I3ODcxZTYwMGM3YWViZjdlYzRkY2EwMWVhZDM1NDRhNTlhNGQ1Nzc4NGFlZCJ9"
+        },
+        {
+          "resource": "repo://frontend/watch-server.ts#L4-L19",
+          "version": "repo-lines-v1:sha256:4b3340f9bbe99f1f0193b415bd22a40d5ff75ba1c97772932550ab3d83a7c989:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkMzA3NTMxNWVlNDNiMGNhNWZjNDkzMDkzMmM4NmZjNzFlMzE4OWQzZTZhMDI3YTczMzJiYjI3NWNkMmQxY2UiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2ZjViNDBiMTU4NDU3ZDE3ODY0ZjIxNzkwNzg2ZGQ1YTJlY2RiNjRiNjZhNjUxZjc4OGQ0ZTI1Y2QzMzAzZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjA4NzhlZjg1NmMxZmZlODI0NTE3MTE2M2I5MWJmZTdiMzYxZDAwNTM4ZjVhNzdiYmUzZDlhODQzYTFkYzg0YzciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8be465d5d6ad4cbe9be4988e7abb6a7e",
+      "statement": "The Vite development server on port 3003 proxies all /api/copilotkit requests directly to the Hono CopilotKit runtime server running on port 4003.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/src/main.tsx#L12-L16",
+          "version": "repo-lines-v1:sha256:a6054e77459c356ae5a8321e09df4b820e996cbffab37cf4cdaab0180f4f1b51:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzJkNjNmYzJlM2IwNThlYjkwMTczNjZjZWFmM2UxZDE5MTZjY2U2N2Y5MzljMjhmNzgzYTI4NTRkZmRhN2JjYyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYTBjNjFhNWQzZTEwM2I2ZjZlMTgzZjYyYmE3N2FkN2I5ODFjZjZlMjJjZTY1MGExYWMyOTRlM2NhMzZiMTJlZiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMWNkZWU2NDY0MjI1ODdmYjc4MDhlNWNjMTRlOWUyNDc4ZTZlYzM0MDQyZmM4YjYxZTQ1OWE2NTgyYzg3MmFkMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYmQwZGEyYTdlNDQ1YmNhYzEwZTI3NTEzYzc1ZDAyOTBlZmVlMzRiNjhkYzE5ZWE4ZWNlYjljMWVjM2QxNjUxZiJ9"
+        },
+        {
+          "resource": "repo://frontend/vite.config.ts#L13-L20",
+          "version": "repo-lines-v1:sha256:808689811683d26f48d4950abb22fd6cbb73b576f7ad59f498a0a9d3dd7c7bcf:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjBlNjZhZmUzMTAyMzFkMmU2MDkxYTVkODlhNjNlNzQ5ODVmYzdjMDIzNjRhODk5YjRjYWNmN2Y1MjcyOTY1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ1Y2QyZmI0ZjNkZjg4NDUxNTI1NWIzOTUyM2YyZjhiNTQ3MmJlZWE5ZjU2NmZmY2EyMDRkYjgwMjU2MTA0MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDhkNzVmNzRkNTc5NzMxOGExMzZkMDJhNGRlMjZkYmNmYzkxMjc2OTA5NDhhYzk5OWI3ZjQ5NzE4ODMyYzZlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZmNWI0MGIxNTg0NTdkMTc4NjRmMjE3OTA3ODZkZDVhMmVjZGI2NGI2NmE2NTFmNzg4ZDRlMjVjZDMzMDNkMiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_12ad8e2d950849a5b043f4d51da4f085",
+      "statement": "The React frontend registers controlled generative UI components showMyName, pieChart, and flightCard using the useComponent hook with Zod prop schemas, enabling the agent to invoke them as tools while the client retains rendering authority.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/src/App.tsx#L12-L35",
+          "version": "repo-lines-v1:sha256:879e2c083e402027c14ef5d8acd556aa13d27b4f5e11542b0b28ef562679bfdb:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1ODhkOTkwMmE1ZGIzNzU4MDRiNzY4NjVlOTM2OWM0N2YyMDExOTA3ZTQxODJhOGIzNDBiOWUxMDFjODZjNmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzNzAwNzM3NzMxNzI3Yzg2NWRlYTkzYTZiYjE5ZDgxNmZkOGM5NTEyNjU3NTFkZDNkMjRhN2VjYTVmOGFjMDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImJjODBkMmUxZGFjMjU2YzZiYTJiZTBhM2I0NGYzZWM1ODZlZTI0OTc4ZDBjNTQwMDBkYzczMDRjZDE3NTUyMWQifQ"
+        },
+        {
+          "resource": "repo://frontend/src/components/flight-card.tsx#L3-L12",
+          "version": "repo-lines-v1:sha256:f49b4f53590bfae146b5cd783f3bda8e3130066cbba71a9a7b97681cdff687fb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiNzgyMjM1OTE0YmZiMTY2MTViNDhjZjU1YWMyZTFmMmQyYzZkMmUwMDVhMDQ5Yzg3MTdlY2Q0YWE0NjFjMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTU5ZGI5MjJlYTQ1Y2ZhNDIzOWUxMjU2NmNkNTViMThmNWQyZDdmODI4NzVlNTQwZmY4YmNjMTk0NjU2ZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEyOGIwY2MwNDVkNzUyNmQxY2RiMjI1OGRhMGExNmE0NWEwZDVhYTliNjRlOGQyMmFhMWU0YTQ5ZDc4NWVkZjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU0ZGE0MjEzMTcyNGVmMDgwNzc5ZjhmYzc3NjM0NzEyMjRiMjBhNmRiNDViN2M5ZTIzNzUyZDgzZTg2ZWU4ODIifQ"
+        },
+        {
+          "resource": "repo://frontend/src/components/pie-chart.tsx#L10-L21",
+          "version": "repo-lines-v1:sha256:b0777b583deba6d1f2036bc65f9c9bb76ef5cca1177df09973626b63cc7715df:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyNGJlYjI0OWY3ZjFkZWQwOWI5OTNlNGU4ZmNkZGFkYWVjMWE1NjFmMDNkNjU2ZjJiYTQzM2RmYjhmODM0Y2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRjOTYyMzg1YmM3MjVjNzkwNDYyOTBmZDQyNWE2ODEzOGEzYzk3Y2VkM2FkY2NmZmI0ZjEwZjFhOThiOWJmMGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFmNTA2N2JiZGQ3YjY0MjhmNTA4MmRlZjAyMTc5NTBmMTMwMDU0N2IxOTAyMGQ0ZjVlNGI5ZDJmMWU3YmE3NGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3MTc5Zjc5N2Q2MjFlMDcwNzM5ZWIyMGJjMDA2YTNlYWRhM2ZjYWM4ZjhjMzhmMDE5NTM3OWNmNWI2NWQ0YjIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4d6e9d3421494f988a303d1d7ff93a27",
+      "statement": "The backend agent in backend/server.py is built with LangGraph create_agent using ChatOpenAI gpt-4.1, MemorySaver checkpointer, and CopilotKitMiddleware to bridge client UI tool schemas into the model execution graph.",
+      "evidence": [
+        {
+          "resource": "repo://backend/server.py#L30-L45",
+          "version": "repo-lines-v1:sha256:c1e174e4a3bfbcdeee301859423ae412ad0f0e4fffedc3bbbf7d469988d3cf91:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkM2I1ZjQ5OTM1ZDJhZGQ2MzU1ZDI4OGE3MTJlZjEzYmNkYzRjYjcyZGY0Zjc2MGI2ZjAyNTgxNDIyNWNjMzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ3ZTQ2MzRjMTg5OWM0Zjg0NmI5MzUzMDExNmM0ZTAxYmNmYTI4YjYyZGFiNTA1NzA1ZWU4OTMyYWIzYTcwNjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRhYTNkMzY1Zjk2N2NlZmQ1ODdjMTlhYmJkNTU4ZWQ4YTI5MzgxYWVkMjhmN2QwMGI0MmM1Y2ZlMWM5OWIxNjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_a0f7629eb20f4e2098eb5681d135d1b5",
+      "statement": "The backend exposes the LangGraph agent over FastAPI using LangGraphAGUIAgent and add_langgraph_fastapi_endpoint, implementing the AG-UI protocol for streaming communication with the CopilotKit runtime.",
+      "evidence": [
+        {
+          "resource": "repo://backend/server.py#L10-L12",
+          "version": "repo-lines-v1:sha256:fba1c47957b7581f8065884f4ac8e8d0b485727bd2c439286aa6aefbb6abc1ce:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGY4ZWEzN2ExMzFlYjYxMDU0YTAxNmMxZGVlMTljNjIxOWIwYjA4ODI0NGE2MDI5Y2MzZGYwZjdhOWIxOTZlMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNzY0OTQzODUzNzZiMTE0NWYxMTE4Y2NmYmVlN2RiMThjMzgzOTM1NzIwZDBhZmY5Yjg5NzE4MTJjZWJhZTk0MiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTcxMjNkODI1YjEzN2Y1ZTE5NzgyYzJjYTBiN2FiNDM5OTg1MGIxZDRjMjkxODFiNGYwNzAwM2RiNzAwMzk1NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDhmOTZhZDg2Mjk2MTQ5N2JjZWFlZTIwMTRlYzBmODYyMzI3M2MzNDUxNWZlY2Q3NTAxNmUyODU2NjFmMmQ3YSJ9"
+        },
+        {
+          "resource": "repo://backend/server.py#L50-L57",
+          "version": "repo-lines-v1:sha256:04b33247d32d953afb1d549a292dac876242c4bb5c851c467ac2435165f3ac20:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNTk1NTYxZGQ4M2VmOWFiNmZhMWEyOWMzMzdjNWVlZDdjOWUwNTA0MTZiZDQ2MmQ0MTU0NzlhY2E4MDFkODBkZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzVkNTI3ZDdmMTBiZmY5OTdjNjllNGYzOWNhNjY1NmI4ZDdjNThlMjQ2YmQ1MDkxOTg5ODYwY2QwMWU2YTViOSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDA1ZjI4YjI3MjM1MzJhNGUwOWZiZjhiMDFhMDkxZTg1YzA2ZjQ3OGMxNWRhZjc1MWVlNzViOWQ1ODk2NjA1YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjAsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_92945e65e341410a9dce35a65c3ba820",
+      "statement": "The backend query_data tool reads all financial records from db.csv using csv.DictReader, providing the agent with raw dataset rows to analyze before calling generative UI chart tools.",
+      "evidence": [
+        {
+          "resource": "repo://backend/server.py#L18-L28",
+          "version": "repo-lines-v1:sha256:f3059cd5ed1e40df5ed51996395d1a9d0531098e592a9e9f194fbe757e0b891d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiZGFhNTAyM2Q5ODJkYmE1YTI1MmVjNzZkMjU2Mjc3NjlmNDUzZDIyN2RlYmE2NGM4Y2E2NDY2NzU0MWIxNWUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg3MTkwMzJlNzk5MDU2NzZlODNjYzBmZTRkYzk5YTcxM2QxODk0MGU4Yjk1ODAyMDczNzA1ZWI5NmE0NzNjZjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZlMDkxOTEyZjJlYTRjZDE2OGZiZmM0YjdlNDE4ODFhNmY0ZWMxYzY5ZWRkNGZmZGI0ODYxOWIzZDkzYTQyOTQifQ"
+        },
+        {
+          "resource": "repo://db.csv#L1-L10",
+          "version": "repo-lines-v1:sha256:22dbf33211cac1cc5620211202d1f6c0980cd54b2492a3e6fd78574564ec949b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI0MDBkMmUwOGFjNWRlY2FlOWRhZjI1ZmRiOTQ3YjU4ZDA1ZDMwMmE5MTg4NjUxZDFiZmI1ZDhiOTNmYTJhOTkiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEwYjkyZDU1NGQ4ZDg0MWU0NTgwMzgyZGMzYjNkMmFjYjI4NDg5ODEwOTZiMDQ5ZDFmNWFhOGFjZGU0ZWUyMzMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMxNzg3NDM0NzViNGQ5YjI1ZDE1MzE4N2VjZjQ5NmVmMmUwNDkwZTJmZmQ0NDQ4NDYxNjczMDdiMDA0YWU3Y2EifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-19T01:55:26.901Z"
+  }
+}

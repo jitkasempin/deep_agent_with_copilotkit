@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "pages": {
+    "/openwiki/architecture/lesson-generative-ui.md": {
+      "pageVersion": "sha256:9e85bfa2225bb03ef30f877ec065fc62a12c1de27d1d815fe450aa92ada78081",
+      "completedBy": "openwiki/0.5.2",
+      "completedRunId": "80632ef3-6a92-4f2f-915d-61145d6c2b41",
+      "sourceFingerprint": "sha256:93e26b59f79cabf2c37872d9dbdc5c5cf9326cbc5c31ae5efa98bd2592708af5"
+    },
+    "/openwiki/architecture/mcp-widget-playground.md": {
+      "pageVersion": "sha256:6ddc3ef57ca5844ba59d467666f9553136d91dec7dd33fbe7c85937e743ea067",
+      "completedBy": "openwiki/0.5.2",
+      "completedRunId": "80632ef3-6a92-4f2f-915d-61145d6c2b41",
+      "sourceFingerprint": "sha256:93e26b59f79cabf2c37872d9dbdc5c5cf9326cbc5c31ae5efa98bd2592708af5"
+    },
+    "/openwiki/concepts/controlled-generative-ui.md": {
+      "pageVersion": "sha256:fdcadbb2c0667d2cf643f9426bb06464613fb5211fc2e698550f30d534c9cb19",
+      "completedBy": "openwiki/0.5.2",
+      "completedRunId": "80632ef3-6a92-4f2f-915d-61145d6c2b41",
+      "sourceFingerprint": "sha256:93e26b59f79cabf2c37872d9dbdc5c5cf9326cbc5c31ae5efa98bd2592708af5"
+    },
+    "/openwiki/operations/development-and-testing.md": {
+      "pageVersion": "sha256:198502ce0a1341a139bb951e48d999def34fa76b166e23798aa3b5ceb7dcb086",
+      "completedBy": "openwiki/0.5.2",
+      "completedRunId": "80632ef3-6a92-4f2f-915d-61145d6c2b41",
+      "sourceFingerprint": "sha256:93e26b59f79cabf2c37872d9dbdc5c5cf9326cbc5c31ae5efa98bd2592708af5"
+    },
+    "/openwiki/quickstart.md": {
+      "pageVersion": "sha256:9c9aebec34d7b41f266c3793597f4721dc321c1cc286600b4c975593af50495e",
+      "completedBy": "openwiki/0.5.2",
+      "completedRunId": "80632ef3-6a92-4f2f-915d-61145d6c2b41",
+      "sourceFingerprint": "sha256:93e26b59f79cabf2c37872d9dbdc5c5cf9326cbc5c31ae5efa98bd2592708af5"
+    },
+    "/openwiki/workflows/notebook-runtime-lifecycle.md": {
+      "pageVersion": "sha256:96ed2c66a657e740a17237b0912301e80b8c907a0b0b03f22618bfe96d53e27b",
+      "completedBy": "openwiki/0.5.2",
+      "completedRunId": "80632ef3-6a92-4f2f-915d-61145d6c2b41",
+      "sourceFingerprint": "sha256:93e26b59f79cabf2c37872d9dbdc5c5cf9326cbc5c31ae5efa98bd2592708af5"
+    }
+  }
+}

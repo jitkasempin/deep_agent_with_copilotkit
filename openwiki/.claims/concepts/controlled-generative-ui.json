@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:fdcadbb2c0667d2cf643f9426bb06464613fb5211fc2e698550f30d534c9cb19",
+  "claims": [
+    {
+      "id": "claim_e118db9e71094f64bc6a7929563de57c",
+      "statement": "The useComponent hook from @copilotkit/react-core/v2 registers client-side React components as agent tools by supplying a tool name, description, Zod parameter schema, and render callback.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/src/App.tsx#L12-L34",
+          "version": "repo-lines-v1:sha256:1f52bfe435452005b7cb01e43fa52081cba342547216ca7f49e3745d68a7ef48:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ1ODhkOTkwMmE1ZGIzNzU4MDRiNzY4NjVlOTM2OWM0N2YyMDExOTA3ZTQxODJhOGIzNDBiOWUxMDFjODZjNmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhM2U0NmY5NDI3NmI2ZjZmNGVkMWYwMmFmNzhiZWY2YTJlZTFjNDM5ZGQ1NTg0Yjk3Mzk0ODMxMzIxNGQyYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjIzNzAwNzM3NzMxNzI3Yzg2NWRlYTkzYTZiYjE5ZDgxNmZkOGM5NTEyNjU3NTFkZDNkMjRhN2VjYTVmOGFjMDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQ0MTIyOTY5NTFiNzA3MzFlNDhlMDZmNTkzNDc5NzE4OWRhZDkxMzIwNmQ0ZDBmZTUwNjNkZjZmZmNlY2NjNTgifQ"
+        },
+        {
+          "resource": "repo://frontend/src/hooks/use-controlled-components.tsx#L9-L30",
+          "version": "repo-lines-v1:sha256:9df3aa2ac122a5bcbff20904fc22f0b71036ced1194dedb7dd05ee4652324c16:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljNWFmMzIxOTIyY2E5MjRmOTM5YzIwN2M4Y2UwM2U4MDM5OTFlMmE1NjFjOTA1Yjc2N2E0OTQwYmI1YzhkNGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdhZThjMzg5ZWNiYzQ4NDFlZTZiNDQ1ZmZhODcxNWZkNjkyNGRjMjMxYTRkNmYxY2MyODJlYjJmNTdmNDQzYjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoxLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFhMWQxYTYzMzkwMjI5Yzc5ODM0N2U4M2EwNDA1NDQxYzk0MDAwMzUyODRhZDE2OGMxYmY2Y2RmMWQ3MGEzNzAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6a9c0e824e1341a19178e688fcaabad1",
+      "statement": "Zod schemas FlightCardProps, PieChartProps, and BarChartProps define strongly typed parameters with field descriptions that CopilotKit exposes to the agent for structured argument generation and frontend validation.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/src/components/bar-chart.tsx#L12-L23",
+          "version": "repo-lines-v1:sha256:446d4fe64f0cf18e0f7c6b4b3d09f14deee4e8a9af1117eeb2c0d8f073dc8220:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0OGEyNzlkNDNkZGZjYTg3NTYyNzBlODc3NmNiNzNmM2U0MDEwOTBlYjJhM2Y5MmYwODk1MjY1NmRmYTYwNGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZkNDQxOTAyYThjZjYyYjhkOTlhZWFkYTJkMDM2NzNkMDIwNWE1YTE1ODM3NjM0NTAyMTNlN2NjZWQ1ZDM4NDYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEzMGQ2YzcwYTkwN2U4NjYwZDg5MWZjZjU1YTk4ZGNiMGZmNjQwMmM4OWM3MDQ5OGZjMDkzMGI0MWEwYmE3MjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImI3YzE0MmIzOTZhNTI5NzE3MjcwODYyNGRlZTNiNzlhZWY3MGFjNjlhMTViMWU2MWU5NTIwY2JlNTYyZTQ5MGMifQ"
+        },
+        {
+          "resource": "repo://frontend/src/components/flight-card.tsx#L3-L12",
+          "version": "repo-lines-v1:sha256:f49b4f53590bfae146b5cd783f3bda8e3130066cbba71a9a7b97681cdff687fb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRiNzgyMjM1OTE0YmZiMTY2MTViNDhjZjU1YWMyZTFmMmQyYzZkMmUwMDVhMDQ5Yzg3MTdlY2Q0YWE0NjFjMmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxYTU5ZGI5MjJlYTQ1Y2ZhNDIzOWUxMjU2NmNkNTViMThmNWQyZDdmODI4NzVlNTQwZmY4YmNjMTk0NjU2ZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjEyOGIwY2MwNDVkNzUyNmQxY2RiMjI1OGRhMGExNmE0NWEwZDVhYTliNjRlOGQyMmFhMWU0YTQ5ZDc4NWVkZjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU0ZGE0MjEzMTcyNGVmMDgwNzc5ZjhmYzc3NjM0NzEyMjRiMjBhNmRiNDViN2M5ZTIzNzUyZDgzZTg2ZWU4ODIifQ"
+        },
+        {
+          "resource": "repo://frontend/src/components/pie-chart.tsx#L10-L21",
+          "version": "repo-lines-v1:sha256:b0777b583deba6d1f2036bc65f9c9bb76ef5cca1177df09973626b63cc7715df:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyNGJlYjI0OWY3ZjFkZWQwOWI5OTNlNGU4ZmNkZGFkYWVjMWE1NjFmMDNkNjU2ZjJiYTQzM2RmYjhmODM0Y2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjRjOTYyMzg1YmM3MjVjNzkwNDYyOTBmZDQyNWE2ODEzOGEzYzk3Y2VkM2FkY2NmZmI0ZjEwZjFhOThiOWJmMGUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFmNTA2N2JiZGQ3YjY0MjhmNTA4MmRlZjAyMTc5NTBmMTMwMDU0N2IxOTAyMGQ0ZjVlNGI5ZDJmMWU3YmE3NGQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjE3MTc5Zjc5N2Q2MjFlMDcwNzM5ZWIyMGJjMDA2YTNlYWRhM2ZjYWM4ZjhjMzhmMDE5NTM3OWNmNWI2NWQ0YjIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_28fb773c0d8e4f7ca468b935c57e291d",
+      "statement": "Visual chart components PieChart and BarChart implement defensive empty-state guards that render a fallback card when data is missing, not an array, or empty, while disabling Recharts animations to avoid layout shifts during streaming.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/src/components/bar-chart.tsx#L26-L40",
+          "version": "repo-lines-v1:sha256:a9f4527f5fb50aa0b73251388fd641e3da31fba8d250a6e2b51908c94bb15e69:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0YzljNDVhZjIzZGZhNzRhYWYwOWYwOTNjZDMxMWNiNTRiMmNlM2RhYTAzY2YyYzRlN2VkZDJiOTM2YTQyNmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI3ZTU3ODhkNWQ5ZDczZDI0YTgxZGJjMGE1YTc0YmZhODJjOWMzYjNhZjk5ZTUyYWY3OTZlOTBiNDY4YThhM2QiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFkZmQ1NWY1NTI1MzYzYmJkMmI0Y2ZjNzQ1OTVlMGUzZTczODE4MWMwNTMxOTk0NDA1MmQwZTQxNTAyNTc2YWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk2ZmQ3NDQ4ODQzYTRiM2RhNTY5ZDA1MjFkOGU5NWVlNTY0YmUzZmNjOWNhMzlkNzA0ZDBhZWRiZjBmODZkOTEifQ"
+        },
+        {
+          "resource": "repo://frontend/src/components/bar-chart.tsx#L70-L70",
+          "version": "repo-lines-v1:sha256:c177961dd399b1a3b9fe06d61f9a9f8027e3c7c06182da2a481bee4df8fffc36:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3Nzk2MWRkMzk5YjFhM2I5ZmUwNmQ2MWY5YTlmODAyN2UzYzdjMDYxODJkYTJhNDgxYmVlNGRmOGZmZmMzNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3Nzk2MWRkMzk5YjFhM2I5ZmUwNmQ2MWY5YTlmODAyN2UzYzdjMDYxODJkYTJhNDgxYmVlNGRmOGZmZmMzNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYTExN2IxZDM2MzM4NDRhYWZmMTdkOTNhMWIzODBhYjliNDJkYTc4NDNkNjVmY2Q3ODZkZTc1NGY2ODVkY2ZiZSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODEzMjg3Y2IzYmMzOWJkM2EzODk4YmRiZTRiZmE3OWE2MmNmOWI2M2Q5MWM2NTFkYjIyZjUzYjQzZGMwM2M3ZiJ9"
+        },
+        {
+          "resource": "repo://frontend/src/components/pie-chart.tsx#L24-L39",
+          "version": "repo-lines-v1:sha256:62504d3c9a1cfcbe97076eea7af67a72bdc3ca9bcb906123384d768dd1e88c14:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ0YzljNDVhZjIzZGZhNzRhYWYwOWYwOTNjZDMxMWNiNTRiMmNlM2RhYTAzY2YyYzRlN2VkZDJiOTM2YTQyNmIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJmYTJlN2Q1YjQ4NjUxNWMyOGMyZjhhNzhkMTQ3NWUwNjYyYWM0Mjk1NzYxNzZiZWE0NTJlNzI2MmE1ZjhlYzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFlYmFmOGUyYjQ5N2U2OGJmZmY0MzhmY2U5MzA4YWY2ODM4ZTFjYmJlMTU0YmQ2OTE1MThmMTI2N2IwNzQzODIifQ"
+        },
+        {
+          "resource": "repo://frontend/src/components/pie-chart.tsx#L64-L64",
+          "version": "repo-lines-v1:sha256:c177961dd399b1a3b9fe06d61f9a9f8027e3c7c06182da2a481bee4df8fffc36:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3Nzk2MWRkMzk5YjFhM2I5ZmUwNmQ2MWY5YTlmODAyN2UzYzdjMDYxODJkYTJhNDgxYmVlNGRmOGZmZmMzNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiYzE3Nzk2MWRkMzk5YjFhM2I5ZmUwNmQ2MWY5YTlmODAyN2UzYzdjMDYxODJkYTJhNDgxYmVlNGRmOGZmZmMzNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZTM5M2NmYjQyYWQ3ZTU1NGUxMDlkNTAzNzk3MGRhY2I3N2Y3NjgyYmU2Y2JhMjk0YjhmOWYxOTkwZTMwYmFkMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmZhMTM1NmU3NTVkZDIxYjc2OTZlOTE5N2FjNTk3ZGVkNWZhYTA2MzIxZTgyZjk3MGE2MTljZTYyZjQ5MDQ0ZiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_9adaad0ceec54864b323a62df81091f0",
+      "statement": "The ToolReasoning component provides execution feedback by rendering an animated spinner during executing and inProgress states, displaying a checkmark upon completion, and using a React useEffect to automatically open its details disclosure during execution and close it on completion.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/src/components/tool-rendering.tsx#L11-L39",
+          "version": "repo-lines-v1:sha256:679ffa7f27152a3614d430e1f5e0b42a22f1d3ee03971e8da03e0909323b9242:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI1ODM5MjY2YmNjM2Y4MTMxYWU3NTg3N2M3MDY4N2UzNTFjN2RhYmVmYzJhZTA1NDEzMTU1MjdlMDI5OTAzMWQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUxZjhkODFiNTg0OGIzOTMwOTRmMjNlOGYyMDRiZGQzMTk4NmNkODg3ZmE3MzE3ZDljYmE0YzBkNzVjYzFhZDkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMyOTczOTgwYzdjNmQ2MDM0ZGIzYjdjNDdlZjg5ZDU5NzUwOTIxYzQ2Njg0ZGI1YTdhYTRmMzhmNjE0MWM0YjMifQ"
+        },
+        {
+          "resource": "repo://frontend/src/components/tool-rendering.tsx#L40-L67",
+          "version": "repo-lines-v1:sha256:01a8175f4be05ec0a38d81df385cf9fe9bc427bfb89126c81f3576ea1f132fa4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU3MjE2ZThlOWMwYTFhNjhkMDZjMmZiYWE1ZmQyMTM5NDgyYjhlZmQwYTE5MzE1YjkxNWU2Y2NlODQ5ZDg5ZGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk1ZWYwMWJjMDhkYmMzYjYzZTRlNzVlYTNkMjZhNWI5NDE4OTE4NzdlMjdhZDg5MTMyOWM4NDExZDdkOGRjNGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjI4YWU2NWM0NDExYmFhODEyZGEyZWUxYTk3OWEyOTUxMGViNDEwMTk2ZjkzZTYyMjk4MjM0MjE5NjMzOTM5YTciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoxLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQxMmNhMzQ1Y2NmNzViZjljMDgwNmJjZTY5NWJlOGRlODA4Yjc5OTg0MjUxYTdhNTRkMjAyY2Y2MTAxZGQ0NTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7ac0728071f54bc4a6cf1b275b8aaf96",
+      "statement": "The useExampleSuggestions hook configures persistent suggestion chips in CopilotChat using useConfigureSuggestions with available set to always to provide one-click prompt shortcuts for registered tools.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/src/App.tsx#L36-L39",
+          "version": "repo-lines-v1:sha256:4ee0a790f9f557b62b4fa1cb7eb745aef4360363934d988fb03ea229f5e52acc:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDkzMmNmZmEyYzRhMzUxOGY2ZjU0YmViNDA0MzQ2NTRkZGQzMTE0NDRhODA4Y2ZiM2QwMGZlMjJmNmNmN2I5YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZlYWQ1NTliMTc2MzE5YWY5NjU5ZWUwOTc2N2QzMTRmYjc4Y2U3N2I4MmRiMWQxZGM5MmYxZTUyNDAwZWY4ZSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDdjNDY0MzAyMDUzNGZlYmI1MDM1ODZiYzBmMzU2NGFmMjM0OGYxNDlmNTBmOTRkZGRhMjkxM2JmYjQ0ZTc4NyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjIsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYTM5Njg0YTQxMzAxNGJmN2IxZDk5YjRmMzQzYzU1ZGUyNDdjNjg2NzAwYzJmMDZlNzg1ZWQ4NTZlNzI5MGFhYyJ9"
+        },
+        {
+          "resource": "repo://frontend/src/hooks/use-example-suggestions.tsx#L3-L24",
+          "version": "repo-lines-v1:sha256:f828d5ee1317f83bd77c425a04bc46056638c2ffc6dc541c108b603d7b1293e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlNWY0ODg0ODhkZmEzYTFhNTE0OGI4ODg5ZmFjNTc3Njc1ZGZiYTYyYzA0MTU1MjM1ZTUxZDhlMmMzMzYyM2EiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMWQxYTYzMzkwMjI5Yzc5ODM0N2U4M2EwNDA1NDQxYzk0MDAwMzUyODRhZDE2OGMxYmY2Y2RmMWQ3MGEzNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM5ZmYwNTA5NDFlZGQ1ODA4NDg4OTQ4YTk0MzI0MzQ4ZjhjNDNiYTk1NDQ5NmQxZDA2Y2Y1MTQwNTY4NGY1ZGUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_9876d162a5ff436887fcc71563423f36",
+      "statement": "The LangGraph backend agent integrates frontend UI tools into its tool catalog via CopilotKitMiddleware, with a system prompt directing it to query db.csv before formatting aggregated data into matching frontend tool arguments.",
+      "evidence": [
+        {
+          "resource": "repo://backend/server.py#L30-L44",
+          "version": "repo-lines-v1:sha256:8ddd22421a890893a07818519a6406a0e9622d0ff5a618d3da6472079910245f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVkM2I1ZjQ5OTM1ZDJhZGQ2MzU1ZDI4OGE3MTJlZjEzYmNkYzRjYjcyZGY0Zjc2MGI2ZjAyNTgxNDIyNWNjMzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwYzFmMTg4ZjE0MmVkN2E4MjQ2ODBiMjA3MTcyYzU1MTliYzYxNGE0OGZkYTdjZjE2N2VkYjhkZGY3OTk1NmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ3ZTQ2MzRjMTg5OWM0Zjg0NmI5MzUzMDExNmM0ZTAxYmNmYTI4YjYyZGFiNTA1NzA1ZWU4OTMyYWIzYTcwNjMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI4M2JhYTNkODdiOGQyZmVkZDExMTMyOWMwOTdjOTgwNDdjMjYzM2FmMmRhZmE5MGM3ZTM5NmVlZjViNDliN2QifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bb16fb2bd822491db915d6a809d68e2a",
+      "statement": "Controlled generative UI components map theme styling and cyclical palette colors through shared configuration tokens CHART_COLORS and CHART_CONFIG tooltip styles.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/src/components/bar-chart.tsx#L43-L46",
+          "version": "repo-lines-v1:sha256:e3fe6c466c450065c6e4b3566a916c1c41b622c28010339e49d8dc81476dcd20:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzg1MDY3MzRmN2JkNGMyZWI2OTkwYTNmNDNiMGVlNjNhMDQ0OGM0Mzk5MGNkYjJlNWY2YTFjMzlkZTFhOGViZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiOWQ5ODM1NDk5ZTViYTkxZjg3MjY3Yzk1MmI3OGVhZWRkNmM0NjZmOTViNjg4MWIwN2I0NmNjYWVjMGNkZjE0NiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmJhMGFjY2ExOTYyZTQzMmI3YThhNjAwNmFjZWJiMmIzOThlMDUyYTgwNzNkYTFiZDFkZDE5ODRhYTZjNTNlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGE5NzdhNmYyN2ZjNThiZWYwMDE3YWYxMTEwZWE5YTE3ZjllYTFlZjE5Zjk2YTY2NGM1MGJiYWY0M2MxZDU2MiJ9"
+        },
+        {
+          "resource": "repo://frontend/src/components/config.ts#L1-L19",
+          "version": "repo-lines-v1:sha256:959967a8c6c68d9d8ffdc7d1681eeca365ce1a1be3c70d3adbf3dc5f2047c2ba:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI0ZTBlMDJlMTYxMDZkNjE5NWZhY2IxYjM2YjFhYmE5OWE1MDdmY2YyMTliZTE5YzY5N2IwNWRmNTQyM2RiYWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMWQxYTYzMzkwMjI5Yzc5ODM0N2U4M2EwNDA1NDQxYzk0MDAwMzUyODRhZDE2OGMxYmY2Y2RmMWQ3MGEzNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://frontend/src/components/pie-chart.tsx#L41-L45",
+          "version": "repo-lines-v1:sha256:e4991a78878a0781e3a17eb3a0b160dd14218d535067ab5acf9c9b9c2193b406:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNzg1MDY3MzRmN2JkNGMyZWI2OTkwYTNmNDNiMGVlNjNhMDQ0OGM0Mzk5MGNkYjJlNWY2YTFjMzlkZTFhOGViZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmJhMGFjY2ExOTYyZTQzMmI3YThhNjAwNmFjZWJiMmIzOThlMDUyYTgwNzNkYTFiZDFkZDE5ODRhYTZjNTNlOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNGNmY2JiODhiMmRiZTZlNmNjMGNlMjQ5MmM3YmRmZTRkNDgyOWE3NmU2MDYxZWY4M2ZhY2M0Njc3MzJlMDkyNSJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-19T01:55:26.901Z"
+  }
+}

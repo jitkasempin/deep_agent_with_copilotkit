@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:198502ce0a1341a139bb951e48d999def34fa76b166e23798aa3b5ceb7dcb086",
+  "claims": [
+    {
+      "id": "claim_50ddc9412c34497cb2e0af28d2b18569",
+      "statement": "The repository contains two independent application workspaces with isolated dependency trees and execution environments: the Lesson 3 generative UI stack (Python backend and React frontend) and the standalone mcp-app workspace.",
+      "evidence": [
+        {
+          "resource": "repo://AGENTS.md#L3-L12",
+          "version": "repo-lines-v1:sha256:a4767af3b8d1596b609aa86df13d3ea8dc4bda8af5c19e6adc6a291b5361c279:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2NmJjYzhiN2E1NGM3ODNmZWFkNzk3ODQ1Yjc0NGM4ZWIwODUwMmM2NDU0Nzc3NmY0ZDY0MzQwMjBjNmQxZmUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYzMjQzZDQ4NjlmMzBkMGQ0MDk0OGVmNjNlN2Q2MjUzYTdjNTM2Y2Y3MjliNmNmZjk4YmRmMjQyMTFmODIyOTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhlYzFlNmI1ZDExYjYxYjY1ZWE1YTJlMjU2ZGFiZTAzNjBiNzhkNzc5NmE2NWQ4NWFjMzZjMDVjZDQ4ZWZhZjgifQ"
+        },
+        {
+          "resource": "repo://frontend/package.json#L1-L39",
+          "version": "repo-lines-v1:sha256:dda32cce079d01ed787f2e6df325f5493778e5116e9982e1b4a16a093cc2fee4:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2ZmIwOGZkYTFhY2I5NTdiNjExNmJkMzc4MTFhMWZlNDFhMDE2MTFjMDYzMWVkYmY3ODZkNjg4OWEyN2E1NWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQxMmNhMzQ1Y2NmNzViZjljMDgwNmJjZTY5NWJlOGRlODA4Yjc5OTg0MjUxYTdhNTRkMjAyY2Y2MTAxZGQ0NTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://mcp-app/package.json#L1-L40",
+          "version": "repo-lines-v1:sha256:9c929d799168e37cd626caa335f74d3dfdbaf9e94fd7e2ed152637e411ec82b9:eyJzZWxlY3RlZExpbmVDb3VudCI6NDAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE2ZmIwOGZkYTFhY2I5NTdiNjExNmJkMzc4MTFhMWZlNDFhMDE2MTFjMDYzMWVkYmY3ODZkNjg4OWEyN2E1NWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxMGIzNmFhNzRhNTliY2Y0YTg4MTg1ODM3ZjY1OGFmYWYzNjQ2ZWZmMmJiMTZjMzkyOGQwZTkzMzVlOTQ1ZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_51797e87894942a39f971d714d0aa691",
+      "statement": "The Lesson 3 frontend development command (npm run dev) launches both a background Hono CopilotKit runtime via watch-server.ts on port 4003 and a Vite development server on port 3003, with Vite proxying /api/copilotkit requests to port 4003.",
+      "evidence": [
+        {
+          "resource": "repo://frontend/package.json#L6-L11",
+          "version": "repo-lines-v1:sha256:7d0201a204c326d6dfd325435baad3a0b34be799d504ccb489841e05a7b305b6:eyJzZWxlY3RlZExpbmVDb3VudCI6NiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ4MzNkNTk0OWMwM2E0MGNhOTUyNDkxNjEwYTY2NTk2NDRiM2FhNDY2MzYyZjc5OTAyMGRiZjE5ODE1NDdkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ1Y2QyZmI0ZjNkZjg4NDUxNTI1NWIzOTUyM2YyZjhiNTQ3MmJlZWE5ZjU2NmZmY2EyMDRkYjgwMjU2MTA0MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZWI0ZjZhNDYyZDEyZTExMzc1MGI2NTQzYzQzYzQzMDQ4NjIyOTExNWIyNWE1ZTdhM2E1YzFkNTcyYTU1ZjkxMyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDUwNGUyZGQ2Njg3MmRlMWZkMmVmNDllOTg4MmYwOWE2NmUxMGQ0YWY5ZDQ2YzcxNDQwNGEwNzBkMWY2MmU0MyJ9"
+        },
+        {
+          "resource": "repo://frontend/server.ts#L25-L27",
+          "version": "repo-lines-v1:sha256:01378addaa0d0a7a09a564f55fd9fb50cfb4d92c6797888decc577e8155eefab:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZTZmMjg3NTNiYTRmNTI4YWZiNjhiOGUyOGE1NmJmNWQxZTBhYzhmMTNlMzYxYmE4M2M1M2JkZjY5N2RjZGRhMCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZmNWI0MGIxNTg0NTdkMTc4NjRmMjE3OTA3ODZkZDVhMmVjZGI2NGI2NmE2NTFmNzg4ZDRlMjVjZDMzMDNkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGE2N2M0OWNmMjMyOTRkODE1ZTY3NWMzMDc2ZGI0YzE2ZjQxZjVjYTM5Y2RjMzMzYjkzMmQyZDBmNjFlMGYwOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiJ9"
+        },
+        {
+          "resource": "repo://frontend/vite.config.ts#L13-L20",
+          "version": "repo-lines-v1:sha256:808689811683d26f48d4950abb22fd6cbb73b576f7ad59f498a0a9d3dd7c7bcf:eyJzZWxlY3RlZExpbmVDb3VudCI6OCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjBlNjZhZmUzMTAyMzFkMmU2MDkxYTVkODlhNjNlNzQ5ODVmYzdjMDIzNjRhODk5YjRjYWNmN2Y1MjcyOTY1MSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ1Y2QyZmI0ZjNkZjg4NDUxNTI1NWIzOTUyM2YyZjhiNTQ3MmJlZWE5ZjU2NmZmY2EyMDRkYjgwMjU2MTA0MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZDhkNzVmNzRkNTc5NzMxOGExMzZkMDJhNGRlMjZkYmNmYzkxMjc2OTA5NDhhYzk5OWI3ZjQ5NzE4ODMyYzZlOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjEsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjZmNWI0MGIxNTg0NTdkMTc4NjRmMjE3OTA3ODZkZDVhMmVjZGI2NGI2NmE2NTFmNzg4ZDRlMjVjZDMzMDNkMiJ9"
+        },
+        {
+          "resource": "repo://frontend/watch-server.ts#L1-L19",
+          "version": "repo-lines-v1:sha256:fddbea6f077497b71aca4932a2a2ed8cda42bb5f74653db2681724038d990920:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIzMGFhODU4YTk1MGU4YWVlYWU3ZGE2ODg2YjY3OThkNDNiOWJhMzBiZjVlYzE1NzkyYWIxY2M3NTBiNzMyYWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2ZjViNDBiMTU4NDU3ZDE3ODY0ZjIxNzkwNzg2ZGQ1YTJlY2RiNjRiNjZhNjUxZjc4OGQ0ZTI1Y2QzMzAzZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1dafc6d4a17f4631a941fd320aed2acd",
+      "statement": "The CopilotKit runtime communicates with the Python LangGraph backend on http://localhost:8003 by default, but allows overriding this target via the LANGGRAPH_DEPLOYMENT_URL environment variable.",
+      "evidence": [
+        {
+          "resource": "repo://AGENTS.md#L43-L44",
+          "version": "repo-lines-v1:sha256:4a3b0ca5f503787dff89c8a7c7dbd5734e01310c432ee4c12534b748df9f1ae4:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZDhhOTljOWFlMTA2NmI1MTliMzRlZWYyZjkzZjZkMmVjZGFjODhkMjMwNDBlNmJiMjBjYjFiYjViYWUwZTgzMyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmFhYjNlMzExMzUzMjkzNzFiYWQ5MTFjN2EwNjI4MzJkOTViNmVmYzdlNWEzZDMzNjY0Mjg2YTlkNmIyMmU4MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOTlmMjEzYTdkMDZlYjk0Y2EwYTgzM2QyNGJmNGEyOWEwZWIzZjI5Njc3NGEzYmU5YThiMzdiNGFiNTBmYzZiNyJ9"
+        },
+        {
+          "resource": "repo://frontend/server.ts#L9-L11",
+          "version": "repo-lines-v1:sha256:cffee865f0ec385424228730bf5fd4d6aa331477e4d70914a43450cb7a9769e0:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNGYyZDM2ZTAxOTNmNGJjOGUyNDllMjcwMjI0NWI0OTQxZDIxNjE5YjZmMDkwMTQ0ODI0MGFkM2VhNzhmNzMxMiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjZmNWI0MGIxNTg0NTdkMTc4NjRmMjE3OTA3ODZkZDVhMmVjZGI2NGI2NmE2NTFmNzg4ZDRlMjVjZDMzMDNkMiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNGY4YmQ1NjE4ZDNlNmRlZGJiZDM4NWFjZWQ2MDY4NDI1YzRlZjY4YzA5NDgxMmUzMjdkNTI2ZDNiOThjYjE5YyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDAxYzg3YjYyMmFhNWRmMWYwZmEwNDMyMTBmNDA1NTc2NmJmNzRkZTk4NGY4MTk2ZDYxYzllZTM5YWE3ODA2MiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_c1c1ee125ce7467aab099c3977486899",
+      "statement": "The helper functions start_frontend(), _ensure_port_free(), and reset_lesson() forcibly terminate any active process listening on the lesson ports (3003, 4003, 8003) using kill -9 via lsof or /proc/net/tcp inode resolution.",
+      "evidence": [
+        {
+          "resource": "repo://AGENTS.md#L80-L81",
+          "version": "repo-lines-v1:sha256:41bda4c552bc54cf2ce10aa96fbbf2cb833e4203b47c461e8f96f324b1d412f6:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIzYTM0ZjdhZDBiNWVkMGQxZmNmYzRhZTM5YzNjNzkzNDI3NTI4MGY5ZjM1NWE2ZDM1ODY0MTliNGIyOTY4YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDEyOWI1MWM2MzMzMDA4OWI5NGNjNzhhNmYwYWQzMTA1ZWUxZjk5MDgyOTQyZTA1YzM3OTQ5MTA0MDM2MTQ3NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjQzYmFjOTUwYjA4YTU1MGMxZjkxZDhmYzg0MTM2MjBkMWM1ODZlNGMzOWJjZDM3ZTM2YzAwMDRiYmU0ZjYyYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWIxYmM1YmM0YTIzN2Y1NzhlNmFmNGE0MTVkMDY0N2Y5OTEwYjAzYjM2NGUxZTI3YzFmMWRiYWE3NDNkMDNiYSJ9"
+        },
+        {
+          "resource": "repo://helper.py#L180-L203",
+          "version": "repo-lines-v1:sha256:0c7fdb522c280302c144bd75e3349563b0675edc5aa9914c450a23a4d7700f72:eyJzZWxlY3RlZExpbmVDb3VudCI6MjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0YTcxMzEzYWM0YWE1OTE2NjA3YmU3MmVjNjA0YzMxNjBmNzlkOGNkMTM0NGI3ZmQxNmJjZWVmMjViYzk0Y2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjY0MjQ4ODRhODk2OGM5Y2JjMTI2Njc1MTU1MzllNGM2N2ViZTExZWZhN2VmNmQ0ZDg1OTBiNTFhODBjNDI5YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijk0YmU0Yzk5ZWVhMzA1ZTUxNjhiMjZlMmRlOWI2ZjUwNzEzNTM1NzUxNmI5MjA0ODJlM2Q5NzNmNWQ4YTJlODQifQ"
+        },
+        {
+          "resource": "repo://helper.py#L372-L388",
+          "version": "repo-lines-v1:sha256:380fd5f3b3571590f25c1a471c95c90c68e5ee38b2c118b3e4941ba8116e640a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImZlODU0ZWMxZGQzNmYxN2EyMWE4N2NlOGQyN2IxODNhOGE3YTZlNjBmMWQ1ZDg1M2U3OWJhNzM0ZDhhYWNhZjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhjNTYyODdhZWIwZTQxZmEwYzJjNzYwZWIwOTFjNzNhZjQwNTE1NTRjMmIwMmE0ZjRjYWE1NmFmYmI1MTA0ODUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImVlZjhjYTkzZDI2NWY0OTk2ODFjZmNhNWVlMWZiNGIzMTAzMzZiNTFkZTgwNTU5MmUxNzhlZDIyZDY1ZThkZjAifQ"
+        },
+        {
+          "resource": "repo://helper.py#L72-L114",
+          "version": "repo-lines-v1:sha256:7ce27db6593ad6ac124b30e7c349a18d8ddf9342d60e47c607c21255ee7acc40:eyJzZWxlY3RlZExpbmVDb3VudCI6NDMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU1ZDU1MzQ5MjFmNTAwN2FmNjk1N2M5MTM1N2JiNDQ5ZmYxYzdiYThkMThmODNmODhjOTMzNjA0MGZkNDgwMDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYwNjJlNThlYTBiMGZkMTk1YmEwNzY2MTNiNjMwZDU5ZTY3YmQ0NzBiYjE5ZTk3YTIwYzkwMjM2NmU1YmEwZTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUyMjlkOTg2NTAwN2M2YjFlMTc5YjBkNzZhNThiYzFkODQxNjQ1NTE0MWNiOWI5NDk4ZDA4YjVkOTUwNTBmYTkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjM1ZDYxYTYzMjY0NWRhZDZmNmFkMjkwY2Q0ZWIwMzg0YmQxYTk0YTc5Njc4MjVlNmEyZGJhMmRmM2RjZDQ5NWEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b9f349db626f40d39d0f0d8bcda18a83",
+      "statement": "The agent backend data tool query_data() ignores its query string parameter and always returns all rows from db.csv as dictionary records.",
+      "evidence": [
+        {
+          "resource": "repo://AGENTS.md#L81-L82",
+          "version": "repo-lines-v1:sha256:9f9a3f8e04d88203fec9af47db943794168f588257311ad1d061a022ebc551d5:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDEyOWI1MWM2MzMzMDA4OWI5NGNjNzhhNmYwYWQzMTA1ZWUxZjk5MDgyOTQyZTA1YzM3OTQ5MTA0MDM2MTQ3NyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTgwNDlkNDcxODk1YTFlYmYyYmExYmRhZmFjMGM1NzA0YTI0ZDIxYTM3ZDAzZWIzNDEyOTEyZWVlZTI4MzQ5MSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNTliNDhjMWM5M2FmNjMyZDBkNTRmMzc1ZjM0YmU2M2JmZTA4NGRhMjFkYmY5OGQ4OWYyYzUxNzRmNGY1NjZlYSJ9"
+        },
+        {
+          "resource": "repo://backend/server.py#L22-L28",
+          "version": "repo-lines-v1:sha256:85ab5ea8289d9579bf8e63dcf45c6d9011a3059e0da0424d02fa93622718b7b3:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTM0ZTU5ZDdlYWRjYThhOTI5YTI1ZmE2MGJiNTRmZjZiOGFmYjBmYWQ5NDA5OWNkMWM4ODk4ZGNkNWJlOTY4YyIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDk4MTIxNDQ3OTAwMTQ3YTY5OGM4YTdiNDM4OWY0ODBmZjI5M2JhMDRhNzhiMTZhNDU4MDRhYjcyYmY5YzJmOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZmUwOTE5MTJmMmVhNGNkMTY4ZmJmYzRiN2U0MTg4MWE2ZjRlYzFjNjllZGQ0ZmZkYjQ4NjE5YjNkOTNhNDI5NCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_50f16a5d24d7405595576bf24280f0a8",
+      "statement": "Playwright E2E tests configured in frontend/playwright.config.ts default baseURL to http://127.0.0.1:3000, requiring PLAYWRIGHT_BASE_URL=http://127.0.0.1:3003 to test the active Lesson 3 frontend stack.",
+      "evidence": [
+        {
+          "resource": "repo://AGENTS.md#L50-L52",
+          "version": "repo-lines-v1:sha256:76636c3ed15981af130ba9af237813038ea82ed356b433690e16517025dc3fba:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGFlNThkZTNkZGZkZTk1YjA2NmIyNTllMjRkODNlNTBkMTVhZWRlYWZiNThiMGIyMGQ3YjI2ZGQzMjRlZjBlZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMTdhZDMxYjJkMjljYTUxYjRlNGRiNzQ1YWMyYzJjZWUyODBiZTYwZWViMDE3YmNhY2I0ZTc4ZWEyMjQ0NWZmYiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMmNhNWMzOTM3ZGFkNDMwZWE5N2E4MTY5OGQwNGYyYjYxNDNkOGEyY2Y1Y2NkZjY1ZDVkM2RjNTllZWUzODBjNyJ9"
+        },
+        {
+          "resource": "repo://frontend/playwright.config.ts#L11-L14",
+          "version": "repo-lines-v1:sha256:e1361f5266533703e3272d8f06f48bea4726e3dcb1eace8bdfec813f36e01ef4:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMGE0MGU3OTI0NGI0MzFiZTkwNDAwZGFlOTNiZjMwNGFkODljZWU1ZjY2MmQzYzU0ZTk0YWQ1YjdmNWU2OTE0NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ1Y2QyZmI0ZjNkZjg4NDUxNTI1NWIzOTUyM2YyZjhiNTQ3MmJlZWE5ZjU2NmZmY2EyMDRkYjgwMjU2MTA0MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiODc2ZmY3NGFhMDI5MDQ3YmJlZGYzOWM4ODFhOGU1Njc4ZmQ1YzE1OWQxYmRmZTI0ZGIyYzJlYzQ2NTVmZjg1ZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2UxNTdiYTI0ODYwMDI0N2NkNzIwMTg2YTQzZTgwZTI3ZGYxNjc2NjVmOTk5MTYyMmMwMzczNGI5Zjg0ZmQyOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_6ff9eeaa11d64e87abb3261bc46cb114",
+      "statement": "Playwright does not launch or manage application processes, requiring the backend, CopilotKit runtime, and Vite frontend servers to be manually started prior to test execution.",
+      "evidence": [
+        {
+          "resource": "repo://AGENTS.md#L54-L55",
+          "version": "repo-lines-v1:sha256:075faea92ffd3ad3c0c4167220d727ab1fab0eced7b039c8c26b91ddb8889ff7:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTE3M2NkZTFlNDI3ZTczYTRiN2ZmYTc0ZmM1M2JjOTQ3MDE1OWM5NmJlMzg4Nzg5OGJmYjhlNWIwZjRkMWRlNiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzAyODM5ZWE5NDY0ZWQwY2ZiNjViNWNlZmRlMGMwNzNlMTQzZTAzNTIzZDY3ZDQwNGRhOWUwMDAwYjU2MmY2ZCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDhjM2U1OGM0MGM4MGVjZGEzYzI4YWZhODRjODI0OTZjMTgwZWJlNDMzMWY4YjBiZDQxNWY5ODk4ZjgyNGY1YSJ9"
+        },
+        {
+          "resource": "repo://frontend/playwright.config.ts#L1-L21",
+          "version": "repo-lines-v1:sha256:28bffb51f1a1c1aa42549325bb67839a60669557cfefb6d9438319667e9a7887:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVjZjNkYzRhNzY1ZGMxMzI0MWIxYTgyMjBhZWFlZDc5ZjY3MGY0YWJiOTQ4ZDM1ODgzYjE1N2QzZjk2NjkyZmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2ZjViNDBiMTU4NDU3ZDE3ODY0ZjIxNzkwNzg2ZGQ1YTJlY2RiNjRiNjZhNjUxZjc4OGQ0ZTI1Y2QzMzAzZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_6048387279b24ba1a74e221a8a76eedd",
+      "statement": "The test suite frontend/e2e/lesson2-frontend.spec.ts asserts obsolete Lesson 2 UI elements (such as an App Mode button and todo list controls) and fails against the current Lesson 3 generative UI frontend in App.tsx.",
+      "evidence": [
+        {
+          "resource": "repo://AGENTS.md#L79-L80",
+          "version": "repo-lines-v1:sha256:5fd8b3e71f9940a3d0375f7052b01dbebd1c0cce7a0cc5ba836ebd11e7db71d3:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjU5ZDBiMjg3MzU1ODgwNjdjNWU2Y2FiNzVmMzQ2NjI0ZDEyMGI3MzE1YjMzMjY1ODk5OTBjN2QyYTYzOTUzOCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDIzYTM0ZjdhZDBiNWVkMGQxZmNmYzRhZTM5YzNjNzkzNDI3NTI4MGY5ZjM1NWE2ZDM1ODY0MTliNGIyOTY4YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOGY2N2NlODQwOTA4YWFlODUwYjUyMWQxOTBkNjNmMTEwZTljM2EwMjZmMGZhYjQ3MDFmODE3ODBiOTA2NmNhOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOWRiNDMzZDk2NWRjMjE5NDNkNzk1NzFmNGM5YWYzNTUxNjZjMGMzOTkzMjVhYTk5OTdiOWU2OTIxYzc3NmNmYSJ9"
+        },
+        {
+          "resource": "repo://frontend/e2e/lesson2-frontend.spec.ts#L3-L28",
+          "version": "repo-lines-v1:sha256:dc23b0ad7e7d7d878cf4bdad05d548a8822cd3fc721558898c6041ca6f7117ae:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2MTQ0ZDAzOWFmNjlkNWI2ZjM5M2RhMTE3OWIxNWNhYzhiOGQxYzhhOTI5MWEyYTQ4MDIyNDMxZDhhN2VkZGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2ZjViNDBiMTU4NDU3ZDE3ODY0ZjIxNzkwNzg2ZGQ1YTJlY2RiNjRiNjZhNjUxZjc4OGQ0ZTI1Y2QzMzAzZDIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjoyLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjhjZDQ0YThkYTk1YTU1YTI1MGQ2MGY2N2JjMjVkZmI3NjQzZTkyNjQ3NGE3MjM5YjdlOWVkMTFmYmE1MDY3YTgiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://frontend/src/App.tsx#L10-L41",
+          "version": "repo-lines-v1:sha256:ac4b37db893f19a6cf34e46cdb541e9c36b0f5e688302d0bc10cf0eaa805f895:eyJzZWxlY3RlZExpbmVDb3VudCI6MzIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI4NTcxMjhiMjU2NzBhMDE1OTY1NDliYzRkNmM2YmI2Y2QyMmNhM2I4Mjk1NjZiMTRlZWJjZmUyMWQwNDY4ZDciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFhMWQxYTYzMzkwMjI5Yzc5ODM0N2U4M2EwNDA1NDQxYzk0MDAwMzUyODRhZDE2OGMxYmY2Y2RmMWQ3MGEzNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImZhNmE5NWMyNzI5ZGU1NzFkOTQzMjM2ZWEyODRhYmRkOThkNWJlNThkMjI4YWE2YWVmOTliMTk1NTZjMzVkMWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_865bf795dd9f429e9403944fd2407195",
+      "statement": "The standalone mcp-app dev server runs on http://localhost:3000 by default, serving the MCP protocol endpoint at /mcp and an interactive testing UI at /mcp/inspector.",
+      "evidence": [
+        {
+          "resource": "repo://AGENTS.md#L64-L66",
+          "version": "repo-lines-v1:sha256:dbd4a86e5d676fda5fc647de9ca12fbc61096b10e3be4284b5d9e12d4b6b9aea:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYjNlZGY5ODkwMWQ2NTA5MmY3NjI3ZWQ5ZDhiYWEyOTEwNjVkODk1ZTlhMDI3ZDM2NzNjNjk2ZjFmZjNjYzhkMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNmVhYzY4NDBiMzUyYTQzZWNmMDZjNjllOGNjNGQ2NDc4N2NlNzExNDExMzViMTMzMzExMDU1OTY3OTk4ODdhYyJ9"
+        },
+        {
+          "resource": "repo://mcp-app/README.md#L14-L16",
+          "version": "repo-lines-v1:sha256:0e99395eb485168bb86e0eb880cf1a2182f4fcb8eb6403e2e3f7df8e67ac8c9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzAwYjk1NDVlNjVkOTA2MmMxNDAwN2YyMzkxNWYzNjQ3MmZmNjg4YTRiMGNjZGYxODA4MTZkNTVhOWM2MGM4NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZGU3MzYwYzQ5MTdmNTA1NGFjMzJhZmZiY2FlYmJiYTczNGExZDYxMDU3ZDJmNzZmODQ1OWY2OTI3YmFjOWQ1NyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzFmNTQyNDdlNzIxMzMyMzc3YTJmNWIwOTAxYjAwMjhmMWUxZTllMDA3NzYxODdhNzFjZDI4YjRjYTI0MWQ3MyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjFlZDY2NTcyY2UyNDU2MzFlYWQzYzQwZmQ2YWE3MmUyMjczOGVmZTg0ZTE4ZmMzNDE5NjFjYmVhOTczMDcwZCJ9"
+        },
+        {
+          "resource": "repo://mcp-app/index.ts#L20-L22",
+          "version": "repo-lines-v1:sha256:a4d080179c466b2b103e8e0766f933a5c20f421721279026da44f33b8acb0bec:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiZGQ1OGQyNzg4MzU0NGU2MDJhY2M0OWMwYWM2YTMxMWRiYjdhYzExMTgyMDkzZDAwMjc5MWMwNDJmMzdhZDQ3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNDg2NWQxMTZjNTllN2NlYTkwYzgyZTk5MjAyYjVmMWZhZWJhZjZkNWMxNWZlMjljZDI3ZmYzMzRjOTU5MDViMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMGEyMjk4NzM5MTBiNjgyODA0NjdlYmM3MmVjMWRlMDg4NDc5OWYxZTc3ZjZlYzZiYWY2OGQzNWFkNWNmZmRmMyJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_d208662298444a4a937994ced036682a",
+      "statement": "The mcp-app workspace requires Node.js >=22.22.2 and provides scripts for building, dev serving, starting, typechecking via mcp-use typecheck, and deploying directly to Manufact Cloud via mcp-use deploy.",
+      "evidence": [
+        {
+          "resource": "repo://mcp-app/README.md#L47-L50",
+          "version": "repo-lines-v1:sha256:644674ee1937adf3cdeee7616038e836b0864454698e97f79bed9db026218688:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWRlMmY1MzI4ZWU2ZTgwNTBlOGFhZmQ4ZGM4NjlhMDY5Y2Q5NTg0ZWRhYWY1NGZlNTg5ZDczYzNiN2RjZDc5OSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNDdjMDZjNTYxZDVjMzI3MzQzNjg1MjY4YTQ2YjMzOTFmMzk5OGVlZTg5MGQyYmU1MWYwZDIxY2M0YTUzYWU2ZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2EzNTNhYmE1NTc5ZGFkOTgzZGQxNDVlY2EzOGFkOWI2NjY2ZTJhMDAyZWZlNDcyNzdiNmFmOTYzZjdmOGQ2MCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNDdlMjQ0MjczMWNiY2E1MzA2ZTI1NGY1NTI2N2I5MGUzNWZiNTY4N2M1MTYzM2RmZTA4ZjVhMGVjMjRkODg2ZSJ9"
+        },
+        {
+          "resource": "repo://mcp-app/package.json#L21-L27",
+          "version": "repo-lines-v1:sha256:25602ea6f6bb4e2605fd1ef04ba1a01e5f22f0098be2c0410af1b4767ec94990:eyJzZWxlY3RlZExpbmVDb3VudCI6NywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMzQ4MzNkNTk0OWMwM2E0MGNhOTUyNDkxNjEwYTY2NTk2NDRiM2FhNDY2MzYyZjc5OTAyMGRiZjE5ODE1NDdkYiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ1Y2QyZmI0ZjNkZjg4NDUxNTI1NWIzOTUyM2YyZjhiNTQ3MmJlZWE5ZjU2NmZmY2EyMDRkYjgwMjU2MTA0MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmMzMTE2YWMxNTExOGIwYjZlZDJhYjlhMWMyYjcxYTQ0ODZlMzRlY2VhZjAyMzIzODYwNWJkMDU4YWFmZWNhOSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2RhY2JkOTk4MGNiZjJiMDY1Nzg5NTc1MWNhMjI5ZjI1YTc4OGNhNzNhNTY4N2YzYjYzNTQ3MTA1OTgxMTUxYiJ9"
+        },
+        {
+          "resource": "repo://mcp-app/package.json#L4-L6",
+          "version": "repo-lines-v1:sha256:b2b4da2f8283c16487a28f146263a35308c7727a0e130a8cfdb8cd0ba39928fd:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNWY2MDE1NTQxMjJlZmU4NTVkNTZlMTBjYzliYWYyMDMxY2EzZjRhYjExY2RiYTIyZjFlYmM1ZDM5YTc1NTgyNCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNGQ1Y2QyZmI0ZjNkZjg4NDUxNTI1NWIzOTUyM2YyZjhiNTQ3MmJlZWE5ZjU2NmZmY2EyMDRkYjgwMjU2MTA0MSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2E5NGMwYWVkMWQ0NzczNzk5NGJjY2RiN2FjY2ZlMTU2ZDA0ZDQyYWEwMjJjNGExNjliYjIyNmY5YTE0ZDQzYyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiMWMzMjViZGVmNDIyYzMwMzkxZjlhZDA0NDllNmRkZTNjZTljZjA1NWEzNjI2ZjAzYTdmMTZkYjIxZDc0YjhmZiJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.5.2",
+    "at": "2026-09-19T01:55:26.901Z"
+  }
+}

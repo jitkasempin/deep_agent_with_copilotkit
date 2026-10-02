@@ -1,0 +1,32 @@
+{
+  "url": "https://wild-pulse-2dr58.run.mcp-use.com/mcp",
+  "verifiedAt": "2026-09-14T16:27:42.909Z",
+  "server": {
+    "name": "mcp-app",
+    "version": "1.0.0",
+    "title": "MCP Widget Playground",
+    "description": "An interactive MCP Apps demo with a counter and greeting tool.",
+    "websiteUrl": "https://mcp-use.com",
+    "icons": [
+      {
+        "src": "https://wild-pulse-2dr58.run.mcp-use.com/mcp/_mcp-use/public/icon.svg",
+        "mimeType": "image/svg+xml",
+        "sizes": [
+          "512x512"
+        ]
+      }
+    ]
+  },
+  "tools": [
+    "show-app",
+    "say-hello"
+  ],
+  "show": {
+    "message": "MCP Widget Playground is ready. Try the counter, call the greeting tool, or send a follow-up message."
+  },
+  "greeting": {
+    "greeting": "Hello, Alex!"
+  },
+  "schemaRejection": true,
+  "resourceMimeType": "text/html;profile=mcp-app"
+}
