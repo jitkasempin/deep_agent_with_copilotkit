@@ -27,6 +27,23 @@ Keep the output concise and centered directly on the retail sentiment metrics at
 - **Overall Sentiment**: (e.g., Bearish, Bullish, Neutral based on retail positioning)
 - **Additional details (if available)**: Total positions/lots or average entry prices.
 
+## When and how to use barChart tool
+Use barChart tool only when user ask for forex historical data and call this tool after `get-all-eurusd-sentiment-data` tool is called.
+Format the data returned from `get-all-eurusd-sentiment-data` tool into the following sample json schema (use for reference only).
+```json
+{
+  "title": "EURUSD Long Sentiment",
+  "description": "Percentage of traders holding long positions by date",
+  "data": [
+        { "label": "date1", "value": 18.0 },
+        { "label": "date2", "value": 13.0 },
+        { "label": "date3", "value": 58.0 }
+    ]
+}
+```
+You must replace the value of "data" key in the sample json above with real value return from `get-all-eurusd-sentiment-data` tool.
+
+
 ## Format the data for insert to BigQuery
 Extract the EURUSD sentiment report into the following key-value pairs in order to insert into BigQuery:
 - **current_date**: The current date of the sentiment report
