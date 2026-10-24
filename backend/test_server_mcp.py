@@ -10,6 +10,9 @@ from unittest.mock import AsyncMock, patch
 
 import httpx
 from fastapi.testclient import TestClient
+from langchain.agents.middleware.pii import PIIDetectionError
+from langchain_core.language_models.fake_chat_models import FakeMessagesListChatModel
+from langchain_core.messages import AIMessage
 from langchain_core.tools import StructuredTool
 from langchain_mcp_adapters.client import MultiServerMCPClient
 from mcp.server.fastmcp import FastMCP
@@ -116,6 +119,42 @@ class MCPTests(unittest.IsolatedAsyncioTestCase):
                 result = await tools[0].ainvoke({})
                 self.assertEqual(result[0]["type"], "text")
                 self.assertEqual(result[0]["text"], "sessions-ok")
+
+
+class PIITests(unittest.IsolatedAsyncioTestCase):
+    async def asyncSetUp(self):
+        self.model = FakeMessagesListChatModel(responses=[AIMessage(content="Safe response")])
+        self.enterContext(patch.object(FakeMessagesListChatModel, "bind_tools", return_value=self.model))
+        self.model_call = self.enterContext(patch.object(
+            FakeMessagesListChatModel, "_generate", autospec=True,
+            side_effect=FakeMessagesListChatModel._generate,
+        ))
+        with patch.object(server, "_load_mcp_tools", AsyncMock(return_value=[])), \
+                patch.object(server, "ChatGoogleGenerativeAI", return_value=self.model):
+            self.graph = await server._build_graph()
+
+    async def test_blocks_builtin_pii_before_model_call(self):
+        for pii_type, content in (
+            ("email", "Contact alice@example.com"),
+            ("credit_card", "Card 4111 1111 1111 1111"),
+            ("ip", "Address 192.168.1.1"),
+            ("mac_address", "Device 00:1A:2B:3C:4D:5E"),
+            ("url", "Visit https://example.com/profile"),
+        ):
+            with self.subTest(pii_type=pii_type), self.assertRaises(PIIDetectionError):
+                await self.graph.ainvoke(
+                    {"messages": [("user", content)]},
+                    {"configurable": {"thread_id": pii_type}},
+                )
+        self.model_call.assert_not_called()
+
+    async def test_allows_input_without_pii(self):
+        result = await self.graph.ainvoke(
+            {"messages": [("user", "Summarize the euro dollar outlook")]},
+            {"configurable": {"thread_id": "clean-input"}},
+        )
+        self.assertEqual(result["messages"][-1].content, "Safe response")
+        self.model_call.assert_called_once()
 
 
 class StartupTests(unittest.TestCase):
